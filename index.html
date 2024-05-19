@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jolly Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" description="MANIKANTA">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    .hr {
+        margin-top: 10px;
+        width: 50%;
+    }
+</style>
+
+<body>
+    <header class="fixed heading wrap">
+        <div class="heading-title">
+            <h1 class="title"><a class="link opacity" href="./index.html">Jolly Shop</a></h1>
+        </div>
+        <div class="s relative">
+            <input data-name="name" class="search-box" type="text" placeholder="Search Products">
+            <span data-name="name" class=" search material-symbols-outlined absolute">
+                search
+                </span></div>
+        <nav class="nav">
+            <ul class="list-non-bullet">
+                <li class="list-inline">
+                    <a class="list" href="./index.html">
+                        <span class="opacity nav-icon material-symbols-outlined">
+                        home
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a class="list" href="./whislist.html">
+                        <span class="favorite-count">0</span>
+                        <span class="opacity nav-icon material-symbols-outlined">
+                        favorite
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a class="list" href="./cart.html">
+                        <span class="cart-count">0</span>
+                        <span class="opacity nav-icon material-symbols-outlined">
+                        shopping_cart
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="d-flex">
+        <aside class="side-bar">
+            <div class="d-flex cl">
+                <h3 class="heading-3">Filter</h3>
+                <span><a class="clear" href="./index.html">Clear</a></span>
+            </div>
+            <div class="filter-container">
+                <h3 class="heading-3">Ratings</h3>
+                <div class="d-flex align-center gap">
+                    <input data-rating="4" class="radio" id="rating-4" type="radio" name="rating">
+                    <label data-rating="4" class="label" for="rating-4">4 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="3" class="radio" id="rating-3" type="radio" name="rating">
+                    <label data-rating="3" class="label" for="rating-3">3 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="2" class="radio" id="rating-2" type="radio" name="rating">
+                    <label data-rating="2" class="label" for="rating-2">2 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="1" class="radio" id="rating-1" type="radio" name="rating">
+                    <label data-rating="1" class="label" for="rating-1">1 stars & above</label>
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="discount-container">
+
+                <h3 class="heading-3">Discount</h3>
+                <div class="d-flex align-center gap">
+                    <input data-discount="75" class="radio" id="discount-75" type="radio" name="rating-1">
+                    <label data-discount="75" class="label" for="discount-75">75% stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-discount="50" class="radio" id="discount-50" type="radio" name="rating-1">
+                    <label data-discount="50" class="label" for="discount-50">50% stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-discount="30" class="radio" id="discount-30" type="radio" name="rating-1">
+                    <label data-discount="30" class="label" for="discount-30">30% stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-discount="10" class="radio" id="discount-10" type="radio" name="rating-1">
+                    <label data-discount="10" class="label" for="discount-10">10% stars & above</label>
+                </div>
+
+            </div>
+
+
+        </aside>
+
+
+        </button>
+        <div class=" products-page d-flex wrap gap" id="products"></div>
+    </div>
+
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

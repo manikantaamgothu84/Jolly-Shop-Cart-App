@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+:root {
+    --primary-color: #334155;
+    --background-color: #cbd5e1;
+    --ancent-color: #1b2b4f;
+    --color: rgba(246, 241, 241, 0.962);
+    --secondary-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color);
+    height: 100vh;
+}
+
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.nav-icon {
+    font-size: 2rem;
+}
+
+.heading {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    width: 100vw;
+    border-bottom: 1px solid var(--ancent-color);
+}
+
+.heading-title {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.opacity:hover {
+    opacity: 0.7;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.link {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.list {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+li {
+    list-style: none;
+}
+
+.search-box {
+    width: 18 rem;
+    padding-left: 2rem;
+    border: none;
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--primary-color);
+    background-color: transparent;
+    padding-top: 5px;
+}
+
+.relative {
+    position: relative;
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+.search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* horizontal product coloring */
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card {
+    padding: 10px;
+    width: 600px;
+    margin: 10px;
+    height: auto;
+}
+
+.shadow {
+    box-shadow: 0 0 6px black;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.card-details {
+    padding: 5px;
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+.card-title {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+.card-des {
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+span {
+    padding: 5px;
+}
+
+.card-price {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.price-strike-through {
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.dicount {
+    color: rgba(208, 122, 23, 0.784);
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.cart-btn {
+    padding: 10px 10px;
+    width: 100px;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+}
+
+.cart-btn1 {
+    padding: 10px 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+}
+
+.favo {
+    font-size: 1rem;
+}
+
+.cta-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.btn-icon {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.q-title {
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.quality-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0px;
+}
+
+.q-title {
+    padding-right: 7px;
+    font-size: 1.2rem;
+}
+
+.count {
+    padding: 0px 7px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.count-value {
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.star {
+    color: orange;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap {
+    gap: 5px;
+}
+
+
+/* whislist price coloring */
+
+.heading-2 {
+    counter-reset: var(--ancent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.final-price {
+    background-color: var(--secondary-color);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-self: flex-start;
+    width: 25rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.justify-space-btw {
+    justify-content: space-between;
+}
+
+.button {
+    padding: 6px;
+    background-color: var( --primary-color);
+    color: var(--background-color);
+    border-radius: 4px;
+    font-size: 1.1rem;
+    transition: all 1.2s ease-in-out;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.save {
+    padding-bottom: 10px;
+}
+
+
+/* counting coloring */
+
+.favorite-count,
+.cart-count {
+    font-size: 1rem;
+    color: white;
+    padding: 0px 4px;
+    margin-left: 25px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+}
+
+.opacity:hover {
+    opacity: 0.7;
+}

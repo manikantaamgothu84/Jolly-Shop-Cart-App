@@ -1,0 +1,90 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<style>
+
+</style>
+
+<body>
+
+    <header class="fixed heading wrap">
+        <div class="heading-title">
+            <h1 class="title"><a class="link opacity" href="./index.html">Jolly Shop</a></h1>
+        </div>
+        <div class="s relative">
+            <input class="search-box" type="text" placeholder="Search Products">
+            <span class=" search material-symbols-outlined absolute">
+                search
+                </span></div>
+        <nav class="nav">
+            <ul class="list-non-bullet">
+                <li class="list-inline">
+                    <a class="list" href="./index.html">
+                        <span class="opacity nav-icon material-symbols-outlined">
+                        home
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a class="list" href="./whislist.html">
+                        <span class="favorite-count">0</span>
+                        <span class="opacity nav-icon material-symbols-outlined">
+                        favorite
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a class="list" href="./cart.html">
+                        <span class="cart-count">0</span>
+                        <span class="opacity nav-icon material-symbols-outlined">
+                        shopping_cart
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2 class="heading-2">Your Cart (<span class="item"></span>) items</h2>
+
+        <main class="main">
+
+            <div class=" products-page   gap" id="cart"></div>
+
+            <div class="  final-price d-flex direction-column wrap gap shadow padding-all-16">
+                <div>Price Details</div>
+                <div class="d-flex align-center justify-space-btw">
+                    <span>price (<span class="item-count"></span>) items</span>
+                    <span>Rs. <span class="product-price"></span></span>
+                </div>
+                <div class="d-flex align-center justify-space-btw">
+                    <span>Discount</span>
+                    <span>- Rs. <span class="discount"></span></span>
+                </div>
+                <div class="d-flex align-center justify-space-btw">
+                    <span>Delivery Charge</span>
+                    <span>Rs. 100</span>
+                </div>
+                <div class="d-flex align-center justify-space-btw">
+                    <span>Total Amount</span>
+                    <span>Rs. <span class="total-amount"></span></span>
+                </div>
+                <div class="save">
+                    You will save Rs. <span class="saving-amount"></span> on this order
+                </div>
+                <button class="button cursor">Place Order</button>
+
+            </div>
+
+        </main>
+    </main>
+
+    <script type="module" src="./cart.js"></script>
+</body>
+
+</html>
